@@ -11,3 +11,8 @@ function destructivelyPrependKitten(name){
   kittens.unshift(name)
 }
 
+function destructivelyRemoveKitten(name){
+  
+  kittens.push(name)
+}
+
